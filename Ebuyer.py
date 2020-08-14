@@ -1,3 +1,5 @@
+"""Copyright® Said Kaawach 2020"""
+
 import requests
 import bs4
 from urllib.parse import parse_qs, urlparse
