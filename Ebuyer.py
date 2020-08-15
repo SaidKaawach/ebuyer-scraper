@@ -16,10 +16,8 @@ import io
 url_base = 'https://www.ebuyer.com'
 product_id_tracker = []
 project_name = 'Ebuyers'
-# insert your path
-path = "......."
-html_path = path + "/html/"
-csv_path = path + "/csv/"
+
+# insert your paths here
 
 # create crawled products ID to know which products have been scraped
 product_id_file = 'crawled_product_ids.txt'
