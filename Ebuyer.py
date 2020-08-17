@@ -83,7 +83,7 @@ def string_clean(string):
     return string
 
 '''
-Note: The below function grabs all the category links of the site and is a recursive function. Please don't change anything here or it amy not work.
+Note: The below function grabs all the category links of the site and is a recursive function. Please don't change anything here or it may not work.
 '''
 def get_all_category_links(url_base, categories={}):
     url = string_clean(url_base)
